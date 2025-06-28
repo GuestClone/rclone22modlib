@@ -1,0 +1,8 @@
+potion.secured_body=Secured Body
+potion.water_vision=Water Vision
+
+item.meta_helmet.name=Meta Helmet
+
+enchantment.item_invul_ench=Item Invulnerability
+
+enchantment.rclone22modlib.item_invul_ench.desc=Makes the item invulnerable to damage sources and even /kill command!

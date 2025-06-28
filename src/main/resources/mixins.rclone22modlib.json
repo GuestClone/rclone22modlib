@@ -1,0 +1,35 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "rclone22.modsrc22.rclone22modlib.mixins",
+  "plugin": "rclone22.modsrc22.rclone22modlib.mixins.MixinConfigPlugin",
+  "verbose": true,
+  "mixins": [
+    "galacticraft.player.GCPlayerHandling",
+    "hbm.blocks.HBMAbsorber",
+    "hbm.blocks.HBMDeconRad",
+    "hbm.blocks.HBMDiDecon",
+    "hbm.blocks.HBMRadSensor",
+    "hbm.blocks.energy.HBMMachineAmgen",
+    "hbm.utils.HBMArmorUtil",
+    "hbm.utils.HBMContaminationUtil",
+    "hbm.utils.HBMEntityEffectHandler",
+    "hbm.utils.HBMHazmatRegistry",
+    "hbm.utils.HBMModEventHandler",
+    "minecraft.entity.MCEntity",
+    "minecraft.items.MCItem",
+    "minecraft.items.MCItemStack"
+  ],
+  "server": [
+  ],
+  "client": [
+    "minecraft.client.MCEntityRenderer"
+  ],
+  "setSourceFile": true,
+  "minVersion": "0.8",
+  "target": "@env(DEFAULT)",
+  "refmap": "mixins.rclone22modlib.refmap.json",
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
