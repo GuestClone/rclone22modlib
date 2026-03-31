@@ -4,5 +4,5 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>rclone22.modsrc22</groupId>
   <artifactId>rclone22modlib</artifactId>
-  <version>1.0.0-1.12.2</version>
+  <version>1.0.1-1.12.2</version>
 </project>
