@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "rclone22.modsrc22.rclone22modlib.bootstrap.mixin",
+  "verbose": true,
+  "mixins": [
+    "LoadControllerMixin"
+  ],
+  "server": [
+  ],
+  "client": [
+  ],
+  "setSourceFile": true,
+  "minVersion": "0.8",
+  "target": "@env(DEFAULT)",
+  "refmap": "mixins.rclone22modlib.refmap.json",
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

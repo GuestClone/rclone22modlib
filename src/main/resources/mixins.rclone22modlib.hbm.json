@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "rclone22.modsrc22.rclone22modlib.mixins.mixinspackages.hbm",
+  "verbose": true,
+  "mixins": [
+    "blocks.HBMAbsorber",
+    "blocks.HBMBlockDepth",
+    "blocks.HBMDeconRad",
+    "blocks.HBMDiDecon",
+    "blocks.HBMRadSensor",
+    "blocks.energy.HBMMachineAmgen",
+    "hazards.HBMItemHazardModule",
+    "utils.HBMArmorUtil",
+    "utils.HBMContaminationUtil",
+    "utils.HBMEntityEffectHandler",
+    "utils.HBMHazmatRegistry"
+  ],
+  "server": [
+  ],
+  "client": [
+  ],
+  "setSourceFile": true,
+  "minVersion": "0.8",
+  "target": "@env(DEFAULT)",
+  "refmap": "mixins.rclone22modlib.refmap.json",
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

@@ -1,0 +1,22 @@
+potion.secured_body=Secured Body
+potion.effect.secured_body=Potion of Secured Body
+splash_potion.effect.secured_body=Splash Potion of Secured Body
+lingering_potion.effect.secured_body=Lingering Potion of Secured Body
+tipped_arrow.effect.secured_body=Arrow of Secured Body
+
+
+item.meta_helmet.name=Meta Helmet
+item.item_wearable_sbp.name=SecureBody Wearable
+
+item.hbm_securebody_mod.name=HBM SecureBody Mod
+item.item_big_battery.name=Big Battery
+
+enchantment.item_invul_ench=Item Invulnerability
+enchantment.harvest_lvl_ench=Harvest Level
+enchantment.harvest_any_ench=Harvest Enchantment
+enchantment.enchant_bauble_sbp=Baubles SecureBody
+
+enchantment.rclone22modlib.harvest_any_ench.desc=Harvest any block regardless of what tool it is or level required for block to break
+enchantment.rclone22modlib.harvest_lvl_ench.desc=Modifies Harvest level depending on enchantment level
+enchantment.rclone22modlib.item_invul_ench.desc=Makes the item invulnerable to damage sources and /kill command
+enchantment.rclone22modlib.enchant_bauble_sbp.desc=Makes player wearing the Baubles or even Trinkets with this enchantment, invulnerable

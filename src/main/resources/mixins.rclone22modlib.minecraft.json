@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "rclone22.modsrc22.rclone22modlib.mixins.mixinspackages.minecraft",
+  "verbose": true,
+  "mixins": [
+    "blocks.MCBlock",
+    "entity.MCEntity",
+    "entity.MCEntityItem",
+    "entity.MCEntityLivingBase",
+    "entity.MCEntityPlayer",
+    "items.MCItem",
+    "items.MCItemStack",
+    "minecraftforge.MCFORGEForgeHooks"
+  ],
+  "server": [
+  ],
+  "client": [
+  ],
+  "setSourceFile": true,
+  "minVersion": "0.8",
+  "target": "@env(DEFAULT)",
+  "refmap": "mixins.rclone22modlib.refmap.json",
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
